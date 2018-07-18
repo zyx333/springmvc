@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MVCController {
     @RequestMapping("/hello")
     public String hello() {
-        return "/index";
+        return "/index"; // path and name of jsp file.
     }
 
 }
